@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootcamp</title>
+</head>
+<body>
+
+    <!-- Introduction to all tag and element -->
+    <h1>Bootcamp</h1>
+    <h2>Introduction</h2>
+    <h3>What is the Bootcamp?</h3>
+    <h4>heading fourth</h4>
+    <h6>heading sixth</h6>
+    <p>Welcome to the Bootcamp!</p>
+
+    <p>This is a simple <b>paragraph.</b> this is a <i>simple paragraph.</i> and <br>
+        it used to demonstrate the use of HTML tags.</p>
+
+        <hr>
+
+        <!-- order list and unordered list -->
+        <h3>Ordered List</h3>
+        <ol type="a">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ol>
+
+
+        <h3>Unordered List</h3>
+        <ul type="square">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+
+        <!-- anchor tags -->
+        <h3>Anchor Tags</h3>
+        <p>Click <a href="https://www.example.com">here</a> to visit Example.com.</p>
+
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">Latest Jobs</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- section part -->
+        <section>
+            <h2>Section Title</h2>
+            <p>This is a section of the webpage.</p>
+        </section>
+
+        <div class="container" id="unique">
+            <h2>Div Title</h2>
+            <p>This is a div element.</p>   
+
+        </div>
+
+
+        <div>
+            <!-- form input data from user name dob password gender photo -->
+            <form action="/submit">
+                <label for="name">Name:</label>
+                <input type="text"  placeholder="Enter your name" id="name" name="name" required><br><br>
+
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required><br><br>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required><br><br>
+
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" required>
+                    <option value="">Select</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select><br><br>
+
+                <label for="photo">Upload Photo:</label>
+                <input type="file" id="photo" name="photo"><br><br>
+
+                <input type="submit" value="Submit">
+
+        </div>
+
+<!-- this is a images -->
+        <img src="../Group 911.jpg" alt="Group Image" width="300" height="200">
+
+        <audio src=""></audio>
+
+
+
+</body>
+</html>
