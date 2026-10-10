@@ -1,0 +1,27 @@
+h1{
+    color: blue;
+    text-align: right;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: rgb(249, 0, 0);
+    text-decoration-style: wavy;
+    text-decoration-style: dashed;
+    text-decoration-thickness: 15px;
+    
+    
+}
+
+p{
+    font-weight: 800;
+    text-align: justify;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    font-size: 20;
+
+
+
+}
+
+a{
+    text-decoration: none;
+}
